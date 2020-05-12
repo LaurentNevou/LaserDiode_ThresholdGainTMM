@@ -1,5 +1,13 @@
 function[T,R]=Transmission_VCSEL_f(lambda,Gain,lambda0,na,nb,nc,N_DBRn,N_DBRp,lc,LQW)
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "Optoelectronic", Cambridge Books Online
+% Prof. Emmanuel Rosencher,
+% Complement to Chapter 9
+% 9.D Fabry–Perot cavities and Bragg reflectors, page 434
+% http://dx.doi.org/10.1017/CBO9780511754647.028
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 c=2.99792458e8;             %% speed of light [m/s]
 k=2*pi/lambda;              %% wave vector    [m-1]
 w=2*pi*c/lambda;            %% pulsation      [s-1]
