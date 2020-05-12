@@ -1,7 +1,8 @@
 function[T,R]=Transmission_DFB_f(lambda,Gain,L,LL,n1,n2,Dn2,n3)
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "Optoelectronic", Cambridge Books Online% Prof. Emmanuel Rosencher,
+% "Optoelectronic", Cambridge Books Online
+% Prof. Emmanuel Rosencher,
 % Complement to Chapter 9
 % 9.D Fabry–Perot cavities and Bragg reflectors, page 434
 % http://dx.doi.org/10.1017/CBO9780511754647.028
